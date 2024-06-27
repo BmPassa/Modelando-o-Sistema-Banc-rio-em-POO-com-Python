@@ -26,8 +26,8 @@ class Conta:
         self._saldo = 0
         self._numero = numero
         self._agencia = "0001"
-        self.cliente = cliente
-        self.historico = Historico()
+        self._cliente = cliente
+        self._historico = Historico()
 
     @classmethod
     def nova_conta(cls, cliente, numero):
